@@ -74,7 +74,7 @@ const Skills = () => {
                         <div className="html">
                         <div className="section">
                                 <img className='skill-icon' src={Tick} alt="" />
-                                <p className='skill-skill'>ExpressJs</p>
+                                <p className='skill-skill'>Authentication</p>
                             </div>
                             <span className='skill-status'>Intermediate</span>
                         </div>
@@ -97,7 +97,7 @@ const Skills = () => {
                         <div className="html">
                         <div className="section">
                                 <img className='skill-icon' src={Tick} alt="" />
-                                <p className='skill-skill'>Authentication</p>
+                                <p className='skill-skill'>ExpressJs</p>
                             </div>
                             <span className='skill-status'>Intermediate</span>
                         </div>
