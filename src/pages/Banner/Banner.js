@@ -1,12 +1,10 @@
 import React from 'react';
 import './Banner.css';
 import Image1 from './WhatsApp Image 2024-08-12 at 11.17.22 PM.jpeg';
-import Image2 from './WhatsApp Image 2024-08-12 at 10.57.19 PM.jpeg';
-import Image3 from './WhatsApp Image 2024-08-12 at 10.57.40 PM.jpeg';
 import LinkedIn from './icons8-linkedin-50.png';
 import Instagram from './icons8-instagram-50.png';
 import GitHub from './icons8-github-50.png';
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
+import { Link } from 'react-scroll';
 const Banner = () => {
   return (
     <>

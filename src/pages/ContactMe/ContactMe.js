@@ -31,7 +31,7 @@ const ContactMe = () => {
             const project = document.getElementById("project-input").value;
             console.log(name, email, project);
             
-            if(name == "" || email == "" || project == ""){
+            if(name === "" || email === "" || project === ""){
                 return(
 
                     toast.error("Please enter the information")

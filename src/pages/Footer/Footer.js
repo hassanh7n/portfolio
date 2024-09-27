@@ -3,7 +3,7 @@ import './Footer.css';
 import Github from './icons8-github-30.png';
 import Instagram from './icons8-instagram-30.png';
 import Linkedin from './icons8-linkedin-30.png';
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
+import { Link} from 'react-scroll';
 const Footer = () => {
   return (
     <div className="footer-main">

@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react'
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
+import React, { useState } from 'react'
+import { Link,  animateScroll as scroll,  } from 'react-scroll';
 import './Navbar.css'
 import Logo from './menu_8917404.png'
 import Home from './home_738822.png'

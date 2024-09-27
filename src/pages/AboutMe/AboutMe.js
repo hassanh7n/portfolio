@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import './AboutMe.css'
 import Completed from './icons8-completed-60.png';
 import Experience from './icons8-experience-50.png';
