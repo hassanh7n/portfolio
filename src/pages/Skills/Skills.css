@@ -103,4 +103,7 @@
         padding: 1rem;
         margin: 0rem;
     }
+    .skill-divOne{
+        gap: 0.7rem;
+    }
 }

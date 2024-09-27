@@ -97,7 +97,7 @@ const Skills = () => {
                         <div className="html">
                         <div className="section">
                                 <img className='skill-icon' src={Tick} alt="" />
-                                <p className='skill-skill'>Auth</p>
+                                <p className='skill-skill'>Authentication</p>
                             </div>
                             <span className='skill-status'>Intermediate</span>
                         </div>
