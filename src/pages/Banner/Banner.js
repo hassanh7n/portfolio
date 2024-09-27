@@ -12,13 +12,14 @@ const Banner = () => {
     <>
     <div id='banner' className='banner'>
         <div className="banner_first">
-            <a href="">
+            <a href="https://github.com/hassanh7n">
+
                 <img className='social_icon' src={GitHub} alt="" />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/hassandev70000/">
                 <img className='social_icon' src={Instagram} alt="" />
             </a>
-            <a href="">
+            <a href="https://www.facebook.com/profile.php?id=61566561445596">
                 <img className='social_icon' src={LinkedIn} alt="" />
             </a>
         </div>

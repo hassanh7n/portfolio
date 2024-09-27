@@ -4,7 +4,7 @@ import Completed from './icons8-completed-60.png';
 import Experience from './icons8-experience-50.png';
 import Support from './icons8-support-50.png';
 import DP from '../Banner/WhatsApp Image 2024-08-12 at 11.17.22 PM.jpeg';
-
+import Cv from './Rizwan Ahmad-1.png';
 const AboutMe = () => {
     // const about = useRef(null);
   return (
@@ -37,7 +37,11 @@ const AboutMe = () => {
                         <h5 className='about-detail'> MERN Stack developer, I design and implement RESTful APIs for seamless integration between front-end and back-end systems. I work closely with UI/UX designers to create responsive and visually appealing user interfaces. Troubleshoot, debug, and optimize code to ensure high performance and reliability.</h5>
                     </div>
                     <div className="second-three">
-                        <button className='about-btn' >Download CV</button>
+                    <button className='about-btn' >
+                        
+                    <a className='aa' href={Cv} download="Hassan Dev(CV)">Download CV</a>
+                        </button>
+                        
                     </div>
                 </div>
         </div>

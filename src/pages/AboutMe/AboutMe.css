@@ -9,6 +9,11 @@
    margin-bottom: 10rem;
 
 }
+.aa{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+}
 .box-shadow{
     box-shadow: -2px -4px 24px 0px rgba(0,0,0,0.14);
 -webkit-box-shadow: -2px -4px 24px 0px rgba(0,0,0,0.14);
