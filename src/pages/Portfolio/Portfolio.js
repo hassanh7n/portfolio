@@ -1,10 +1,10 @@
 import React from 'react'
 import './Portfolio.css'
-import ProjectOne from './Screenshot (1).png';
-import ProjectTwo from './Screenshot (2).png';
-import ProjectThree from './Screenshot (3).png';
-import ProjectFour from './Screenshot (4).png';
-import ProjectFive from './Screenshot (5).png';
+import ProjectOne from './Screenshot (1)-min.png';
+import ProjectTwo from './Screenshot (2)-min.png';
+import ProjectThree from './Screenshot (3)-min.png';
+import ProjectFour from './Screenshot (4)-min.png'
+import ProjectFive from './Screenshot (5)-min.png';
 import Tick from '../Services/icons8-tick-50 (1).png';
 const Portfolio = () => {
   return (
