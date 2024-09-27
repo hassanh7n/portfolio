@@ -44,7 +44,6 @@ const Navbar = () => {
                         spy={true}
                         smooth={true}
                         offset={50}
-                        duration={1000}
                          className='nav-link a'>
                      
                             <i><img className='icon' src={About} alt="" /></i>
@@ -57,7 +56,6 @@ const Navbar = () => {
                          spy={true}
                          smooth={true}
                          offset={50}
-                         duration={1000}
                           className='nav-link a'>
                             <i><img className='icon' src={Skills} alt="" /></i>
                             Skills</Link></li>
@@ -69,7 +67,6 @@ const Navbar = () => {
                         spy={true}
                         smooth={true}
                         offset={50}
-                        duration={1000}
                          className='nav-link a'>
                             <i><img className='icon' src={Services} alt="" /></i>
                             Services</Link></li>
@@ -81,7 +78,6 @@ const Navbar = () => {
                         spy={true}
                         smooth={true}
                         offset={50}
-                        duration={1000}
                          className='nav-link a'>
                             <i><img className='icon' src={Portfolio} alt="" /></i>
                             Portfolio</Link></li>
@@ -94,7 +90,6 @@ const Navbar = () => {
                             spy={true}
                             smooth={true}
                             offset={50}
-                            duration={1000}
                             className='nav-link a'>
                             <i><img className='icon' src={ContactUs} alt="" /></i>
                             Contact</Link></li>

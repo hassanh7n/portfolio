@@ -15,7 +15,6 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 offset={50}
-                duration={1000}
                 >
 
                 <span className='footer-detail'>about</span>
@@ -25,7 +24,6 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 offset={50}
-                duration={1000}
                 >
                 <span className='footer-detail'>projects</span>
                 </Link>
@@ -35,7 +33,6 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 offset={50}
-                duration={1000}
                 >
                 
                 <span className='footer-detail'>services</span>
