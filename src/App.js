@@ -19,7 +19,7 @@ function App() {
       <AboutMe />
       <Skills />
       <Services />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <ContactMe />
       <Footer />
       <ToastContainer position='top-center' />
