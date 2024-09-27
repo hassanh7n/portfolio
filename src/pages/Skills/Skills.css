@@ -103,7 +103,14 @@
         padding: 1rem;
         margin: 0rem;
     }
+    
+@media screen and (max-width: 400px){
     .skill-divOne{
         gap: 0.7rem;
     }
+    .skills-details{
+        margin: 1rem;
+        gap: 1rem;
+    }
+}
 }
