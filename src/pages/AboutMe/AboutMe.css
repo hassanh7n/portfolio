@@ -1,0 +1,172 @@
+.banner-main{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 6rem; */
+    padding-top: 8rem;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+   margin-bottom: 10rem;
+
+}
+.box-shadow{
+    box-shadow: -2px -4px 24px 0px rgba(0,0,0,0.14);
+-webkit-box-shadow: -2px -4px 24px 0px rgba(0,0,0,0.14);
+-moz-box-shadow: -2px -4px 24px 0px rgba(0,0,0,0.14);
+
+}
+.about-img{
+    width: 280px;
+    border-radius: 20px;
+}
+.banners{
+    margin-top: 5rem;
+
+    display: flex;
+    margin: 2rem 15rem;
+    gap: 2rem;
+    justify-content: space-around;
+}
+.second{
+    padding: 0rem;
+    max-width: 400px;
+}
+.secondOne{
+    display: flex;
+    flex-direction: row;
+}
+.head{
+    display: flex;
+    gap: 5px;
+}
+.experience{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: center;
+    border-radius: 7px;
+    background: white;
+    gap: 0.6rem;
+}
+.completed{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: center;
+    border-radius: 7px;
+    background: white;
+    gap: 0.6rem;
+}
+.support{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: center;
+    border-radius: 7px;
+    background: white;
+    gap: 0.6rem;
+}
+.about-icon{
+    width: 20px;
+    background-color: white;
+}
+.about-name{
+    background-color: white;
+    font-weight: 600;
+
+}
+.about-discr{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.342);
+}.about-detail{
+    margin-top: 1rem;
+    font-size: 14px;
+    font-weight: 500;
+}
+.about-btn{
+   margin-left: -16rem;
+   margin-top: 1rem;
+   height: 40px;
+   width: 130px;
+   border-radius: 7px;
+   color: white;
+   /* margin-left: 3.3rem; */
+   background: rgba(0, 0, 0, 0.731);
+   border: 1px rgba(0, 0, 0, 0.626) solid;
+   cursor: pointer;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 440px){
+    .second{
+        padding: 1rem 3rem;
+    }
+    .experience{
+        padding: 0.5rem 0.2rem;
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        align-items: center;
+        border-radius: 7px;
+        background: white;
+        gap: 0.3rem;
+    }
+    .completed{
+        padding: 0.5rem 0.2rem;
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        align-items: center;
+        border-radius: 7px;
+        background: white;
+        gap: 0.3rem;
+    }
+    .support{
+        padding: 0.5rem 0.2rem;
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        align-items: center;
+        border-radius: 7px;
+        background: white;
+        gap: 0.3rem;
+    }
+    .about-icon{
+        width: 15px;
+        background-color: white;
+    }
+    .about-name{
+        background-color: white;
+        font-size: medium;
+        font-weight: 600;
+    
+    }
+    .about-discr{
+        background-color: white;
+        color: rgba(0, 0, 0, 0.342);
+        font-size: small;
+    }.about-detail{
+        margin-top: 1rem;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .about-btn{
+        margin-left: -11rem;
+       
+    }
+    
+}
+@media screen and (max-width: 792px){
+    .banners{
+        width: 100%;
+        margin: 0px;
+        margin-top: 5rem;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

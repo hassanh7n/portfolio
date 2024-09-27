@@ -1,0 +1,40 @@
+.footer-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 10rem;
+}
+.footer-main-first{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.footer-first,
+.footer-second{
+    display: flex;
+    gap: 1.2rem;
+}
+.footer-first{
+    gap: 3.72rem;
+}
+.footer-detail{
+    color: rgba(0, 0, 0, 0.742);
+    font-size: large;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+.footer-details{
+    color: rgba(0, 0, 0, 0.578);
+    background-color: whitesmoke;
+}
+.footer-icon{
+    width: 30px;
+    cursor: pointer;
+}
+.footer-title{
+    color: rgba(0, 0, 0, 0.747);
+}

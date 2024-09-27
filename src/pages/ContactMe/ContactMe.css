@@ -1,0 +1,134 @@
+.contact-main{
+ display: flex;
+ justify-content: space-around;
+ width: 100%;
+ padding-top: 10rem;
+ margin-bottom: 4rem;
+}
+.contact-firstBanner{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: center;
+}
+
+.img-icon{
+    width: 30px;
+    background-color: white;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    background-color: white;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: -2px -4px 32px -8px rgba(0, 0, 0, 0.18);
+-webkit-box-shadow: -2px -4px 32px -8px rgba(0,0,0,0.18);
+-moz-box-shadow: -2px -4px 32px -8px rgba(0,0,0,0.18);
+
+
+}
+.contact-secondBanner{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+.contact-form-div{
+    position: relative;
+    margin-bottom: 2rem;
+    height: 4rem;
+}
+.namee{
+    position: absolute;
+    top: -0.64rem;
+    left: 1.25rem;
+    z-index: 10;
+    color: rgba(0, 0, 0, 0.441);
+    font-size: 14px;
+    background-color: whitesmoke;
+}
+.input-name{
+    outline: none;
+    padding: 20px;
+    border-color: gray;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    width: 500px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.textarea{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    border-color: gray;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    width: 500px;
+    border-radius: 10px;
+    outline: none;
+}
+.contact-btn{
+    margin-top: 8rem;
+    margin-left: -24.7rem;
+   height: 50px;
+   width: 150px;
+   border-radius: 7px;
+   color: white;
+   /* margin-left: 3.3rem; */
+   background: rgba(0, 0, 0, 0.731);
+   border: 1px rgba(0, 0, 0, 0.626) solid;
+   cursor: pointer;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 892px){
+    .contact-main{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        width: 500px;
+    }
+    .contact-firstBanner{
+        margin-bottom: 6rem;
+    }
+}
+@media screen and (max-width: 578px){
+    .input-name,
+    .box{
+        width: 400px;
+    }
+    .textarea{
+        width: 400px;
+    }
+    .contact-btn{
+        margin-left: -12rem;
+    }
+}
+@media screen and (max-width: 578px){
+    .input-name,
+    .textarea,
+    .box{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 380px){
+    .input-name,
+    .textarea,
+    .box{
+        width: 280px;
+    }
+.contact-btn{
+    margin-left: -11rem;
+}
+}

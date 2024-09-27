@@ -1,0 +1,131 @@
+.main{
+    display: flex;
+    padding: 1.3rem ;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+    background: white;
+  }
+  .sectionOne{
+    background-color: white;
+  }
+.sectionsTwo{
+    background: white;
+}
+ul{
+    display: flex;
+    gap: 25px;
+    background: white;
+
+}
+li{
+    list-style: none;
+    background: white;
+}
+.a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.731);
+    background: white;
+    font-size: small;
+    cursor: pointer;
+    
+}
+.active-link,
+.a:hover{
+    color: black;
+    background-color: white;
+}
+.name{
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    background: white;
+}
+.logo{
+    width: 25px;
+    background: white;
+    cursor: pointer;
+    display: none;
+}
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--small-font);
+    font-weight: var(--medium-font);
+    color: var(--title-color);
+    transition: .3s;
+}
+.icon{
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .main{
+        top: initial;
+        bottom: 0;
+        justify-content: space-between;
+        padding: 1.3rem auto;
+    }
+    .logo{
+        display: block;
+    }
+    
+    .name{
+        padding-left: 0rem;
+    }
+    .logo{
+        padding-right: 2rem;
+    }
+    .sectionsTwo{
+        position: fixed;
+        bottom: -100%;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        padding: 2rem 1.5rem 4rem;
+        box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.30);
+        border-radius: 1.5rem 1.5rem 0 0;
+        margin-left: -2rem;
+        transition: 0.3s;
+    }
+    ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    .nav-item{
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon{
+        display: block;
+        width: 20px;
+        background-color: white;
+    }
+    .close{
+        position: absolute;
+        right: 2.5rem;
+        bottom: 1.5rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: black;
+    }
+    .show-menu{
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 365px){
+    .logo{
+        padding-right: 3rem;
+    }
+}
+@media screen and (max-width: 340px){
+    .logo{
+        padding-right: 3rem;
+    }
+}

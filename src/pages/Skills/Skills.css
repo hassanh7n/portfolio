@@ -1,0 +1,106 @@
+.Skills-main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 8rem;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+   margin-bottom: 10rem;
+}
+.intro-bio{
+    color: rgba(0, 0, 0, 0.454);
+}
+.skills-banner{
+        margin-top: 5rem;
+        display: flex;
+        margin: 2rem 17rem;
+        gap: 2rem;
+        justify-content: space-around;
+}
+.skills-first{
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 4rem;
+    padding: 2rem;
+    box-shadow: 20px;
+    box-shadow: -2px -4px 32px -8px rgba(0,0,0,0.38);
+-webkit-box-shadow: -2px -4px 32px -8px rgba(0,0,0,0.38);
+-moz-box-shadow: -2px -4px 32px -8px rgba(0,0,0,0.38);
+}
+.skills-details{
+        background-color: white;
+        margin: 2rem;
+        display: flex;
+        gap: 2rem;
+        justify-content: space-around;
+}
+.skill-divOne{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: left;
+    background-color: white;
+}
+.html{
+    background-color: white;
+}
+.skill-skill{
+    font-weight: 600;
+    background-color: white;
+}
+.skill-status{
+    font-size: small;
+    color: rgba(0, 0, 0, 0.434);
+    background-color: white;
+    margin-left: 21px;
+}
+.section{
+    display: flex;
+    gap: 5px;
+    background-color: white;
+}
+.skill-icon{
+    width: 17px;
+    /* height: 15x; */
+    margin-top: 0px;
+    background-color: white;
+}
+.skill-name{
+    background-color: white;
+}
+
+@media screen and (max-width: 810px){
+    .skills-banner{
+        gap: 1.5rem;
+    }
+    .skills-first{
+        padding: 1rem;
+        margin-top: 4rem;
+    }
+}
+@media screen and (max-width: 728px){
+    .skills-banner{
+        flex-direction: column;
+        width: auto;
+        gap: 4rem;
+        margin: 2rem 5rem;
+    }
+    .skills-first{
+        margin-top: 4rem;
+        padding: 1rem;
+        margin: 0rem;
+    }
+}
+@media screen and (max-width: 500px){
+    .skills-banner{
+        flex-direction: column;
+        width: auto;
+        gap: 4rem;
+        margin: 2rem 2rem;
+    }
+    .skills-first{
+        margin-top: 4rem;
+        padding: 1rem;
+        margin: 0rem;
+    }
+}

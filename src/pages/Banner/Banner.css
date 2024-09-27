@@ -1,0 +1,115 @@
+.banner{
+    padding-top: 10rem;
+    margin-top: 10rem;
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.banner_first{
+    margin: 0%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.banner_second{
+    display: flex;
+    gap: 2rem;
+    width: 700px;
+    text-align: center;
+}
+.info{
+    padding: 0rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+}
+.hello_div{
+    display: flex;
+}
+.Hi{
+    width: 20px;
+    padding-top: 0px;
+    background-color: transparent;
+}
+.image{
+    padding: 0rem;
+}
+.bioPic{
+    width: 200px;
+    animation: profile_animation 8s ease-in-out  infinite;
+}
+.social_icon{
+    width: 20px;
+}
+.btn-hello{
+    height: 40px;
+    width: 130px;
+    border-radius: 7px;
+    color: white;
+    /* margin-left: 3.3rem; */
+    background: rgba(0, 0, 0, 0.731);
+    border: 1px rgba(0, 0, 0, 0.626) solid;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-hello:hover{
+    background: rgba(0, 0, 0, 0.751);
+}
+.intro-discr{
+    background-color: whitesmoke;
+}
+@media screen and (max-width: 678px){
+    h1{
+        font-size: x-large;
+    }
+    .intro-bio{
+        font-size: 15px;
+    }
+    .intro-discr{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 600px){
+    .btn-hello{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 600px){
+    .banner{
+        margin-top: 7rem;
+        padding: 1rem;
+        margin-bottom: 4rem;
+    }
+    .btn-hello{
+        margin-left: 0rem;
+    }
+    .banner_second{
+        width: auto;
+    }
+    .info{
+        text-align: left;
+        padding: 0rem;
+    }
+}
+@media screen and (max-width: 778px){
+    .banner_second{
+        flex-direction: column-reverse;
+    }
+}
+
+
+@keyframes profile_animation{
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/50% 30% 70% 40%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    
+}
