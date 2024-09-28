@@ -14,10 +14,13 @@ const Portfolio = () => {
         
         <div className="portfolio-main">
             {/* Akaza first project  */}
-        <a href="">
+        
         <div className="project">
-                <img className='project-img' src={ProjectOne} alt="" />
-                <p className='project-discription'>Ecommerce application</p>
+            <a href="">
+            <img className='project-img' src={ProjectOne} alt="" />
+            <p className='project-discription'>Ecommerce application</p>
+            </a>
+                
                 <div className="project-detail">
                 <div className="C">
                         <div className="html">
@@ -75,14 +78,15 @@ const Portfolio = () => {
                 </div>
                 </div>
             </div>
-        </a>
+        
 
 
         {/* Second project */}
-        <a href="">
         <div className="project">
+            <a href="">
                 <img className='project-img' src={ProjectTwo} alt="" />
                 <p className='project-discription'>Wheels</p>
+            </a>
                 <div className="project-detail">
                 <div className="C">
                         <div className="html">
@@ -140,7 +144,6 @@ const Portfolio = () => {
                 </div>
                 </div>
             </div>
-        </a>
 
 
 
@@ -148,10 +151,11 @@ const Portfolio = () => {
 
 
         {/* third project  */}
-        <a href="">
         <div className="project">
+            <a href="">
                 <img className='project-img' src={ProjectThree} alt="" />
                 <p className='project-discription'>Social media application</p>
+            </a>
                 <div className="project-detail">
                 <div className="C">
                         <div className="html">
@@ -209,18 +213,17 @@ const Portfolio = () => {
                 </div>
                 </div>
             </div>
-        </a>
-
 
 
 
 
 
         {/* fourth project */}
-        <a href="">
         <div className="project">
+            <a href="">
                 <img className='project-img' src={ProjectFour} alt="" />
                 <p className='project-discription'>Admin Panel</p>
+            </a>
                 <div className="project-detail">
                 <div className="C">
                         <div className="html">
@@ -279,8 +282,6 @@ const Portfolio = () => {
                 </div>
                 </div>
             </div>
-        </a>
-
 
 
 
@@ -290,10 +291,11 @@ const Portfolio = () => {
 
 
         {/* Fifth project */}
-        <a href="">
         <div className="project">
+                <a href="">
                 <img className='project-img' src={ProjectFive} alt="" />
                 <p className='project-discription'>CocktailDB</p>
+                </a>
                 <div className="project-detail">
                 <div className="C">
                         <div className="html">
@@ -351,7 +353,6 @@ const Portfolio = () => {
                 </div>
                 </div>
             </div>
-        </a>
         </div>
     </div>
   )
