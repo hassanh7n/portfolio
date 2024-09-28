@@ -64,7 +64,14 @@ const Portfolio = () => {
                             </div>
                             {/* <span className='skill-status'>Intermediate</span> */}
                         </div>
-                    
+                    <div className="multiple-buttons">
+                        <a href="">
+                            <button className='btn-project'>Github Code</button>
+                        </a>
+                        <a href="">
+                            <button className='btn-project'>View project</button>
+                        </a>
+                    </div>
                 </div>
                 </div>
             </div>
@@ -122,7 +129,14 @@ const Portfolio = () => {
                             </div>
                             {/* <span className='skill-status'>Intermediate</span> */}
                         </div>
-                    
+                        <div className="multiple-buttons">
+                        <a href="">
+                            <button className='btn-project'>Github Code</button>
+                        </a>
+                        <a href="">
+                            <button className='btn-project'>View project</button>
+                        </a>
+                    </div>
                 </div>
                 </div>
             </div>
@@ -184,7 +198,14 @@ const Portfolio = () => {
                             </div>
                             {/* <span className='skill-status'>Intermediate</span> */}
                         </div>
-                    
+                        <div className="multiple-buttons">
+                        <a href="">
+                            <button className='btn-project'>Github Code</button>
+                        </a>
+                        <a href="">
+                            <button className='btn-project'>View project</button>
+                        </a>
+                    </div>
                 </div>
                 </div>
             </div>
@@ -246,6 +267,14 @@ const Portfolio = () => {
                             </div>
                             {/* <span className='skill-status'>Intermediate</span> */}
                         </div>
+                        <div className="multiple-buttons">
+                        <a href="">
+                            <button className='btn-project'>Github Code</button>
+                        </a>
+                        <a href="">
+                            <button className='btn-project'>View project</button>
+                        </a>
+                    </div>
                     
                 </div>
                 </div>
@@ -291,10 +320,10 @@ const Portfolio = () => {
                     
                     
                     <div className="html">
-                    <div className="section">
+                    {/* <div className="section">
                                 <img className='service-icon' src={Tick} alt="" />
                                 <p className='service-skill'></p>
-                            </div>
+                            </div> */}
                             {/* <span className='skill-status'>Intermediate</span> */}
                         </div>
                         <div className="html">
@@ -311,7 +340,14 @@ const Portfolio = () => {
                             </div>
                             {/* <span className='skill-status'>Intermediate</span> */}
                         </div>
-                    
+                        <div className="multiple-buttons">
+                        <a href="">
+                            <button className='btn-project'>Github Code</button>
+                        </a>
+                        <a href="">
+                            <button className='btn-project'>View project</button>
+                        </a>
+                    </div>
                 </div>
                 </div>
             </div>
