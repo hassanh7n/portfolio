@@ -17,7 +17,7 @@ const Banner = () => {
             <a href="https://www.instagram.com/hassandev70000/">
                 <img className='social_icon' src={Instagram} alt="" />
             </a>
-            <a href="https://www.facebook.com/profile.php?id=61566561445596">
+            <a href="https://www.linkedin.com/in/hassan-dev-972187330/">
                 <img className='social_icon' src={LinkedIn} alt="" />
             </a>
         </div>

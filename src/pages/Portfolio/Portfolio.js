@@ -1,10 +1,9 @@
 import React from 'react'
 import './Portfolio.css'
-import ProjectOne from './Screenshot (1)-min.png';
-import ProjectTwo from './Screenshot (2)-min.png';
-import ProjectThree from './Screenshot (3)-min.png';
-import ProjectFour from './Screenshot (4)-min.png'
-import ProjectFive from './Screenshot (5)-min.png';
+import ProjectOne from './Screenshot (2)-min.png';
+import ProjectTwo from './Screenshot (9)-min.png';
+import ProjectThree from './Screenshot (8)-min.png';
+import ProjectFour from './Screenshot (7)-min.png'
 import Tick from '../Services/icons8-tick-50 (1).png';
 const Portfolio = () => {
   return (
@@ -68,10 +67,10 @@ const Portfolio = () => {
                             {/* <span className='skill-status'>Intermediate</span> */}
                         </div>
                     <div className="multiple-buttons">
-                        <a href="">
+                        <a href="https://github.com/hassanh7n/Akaza-server">
                             <button className='btn-project'>Github Code</button>
                         </a>
-                        <a href="">
+                        <a href="https://akaza-hassan.netlify.app">
                             <button className='btn-project'>View project</button>
                         </a>
                     </div>
@@ -134,10 +133,10 @@ const Portfolio = () => {
                             {/* <span className='skill-status'>Intermediate</span> */}
                         </div>
                         <div className="multiple-buttons">
-                        <a href="">
+                        <a href="https://github.com/hassanh7n/wheels-server">
                             <button className='btn-project'>Github Code</button>
                         </a>
-                        <a href="">
+                        <a href="https://wheels-hassan.netlify.app">
                             <button className='btn-project'>View project</button>
                         </a>
                     </div>
@@ -203,10 +202,10 @@ const Portfolio = () => {
                             {/* <span className='skill-status'>Intermediate</span> */}
                         </div>
                         <div className="multiple-buttons">
-                        <a href="">
+                        <a href="https://github.com/hassanh7n/SocialMedia-server">
                             <button className='btn-project'>Github Code</button>
                         </a>
-                        <a href="">
+                        <a href="https://hassan-socialmedia-app.netlify.app">
                             <button className='btn-project'>View project</button>
                         </a>
                     </div>
@@ -271,10 +270,10 @@ const Portfolio = () => {
                             {/* <span className='skill-status'>Intermediate</span> */}
                         </div>
                         <div className="multiple-buttons">
-                        <a href="">
+                        <a href="https://github.com/hassanh7n/hassan-jobster-backend">
                             <button className='btn-project'>Github Code</button>
                         </a>
-                        <a href="">
+                        <a href="https://jobify-hassan.netlify.app">
                             <button className='btn-project'>View project</button>
                         </a>
                     </div>
@@ -291,7 +290,7 @@ const Portfolio = () => {
 
 
         {/* Fifth project */}
-        <div className="project">
+        {/* <div className="project">
                 <a href="">
                 <img className='project-img' src={ProjectFive} alt="" />
                 <p className='project-discription'>CocktailDB</p>
@@ -303,44 +302,35 @@ const Portfolio = () => {
                                 <img className='service-icon' src={Tick} alt="" />
                                 <p className='service-skill '>Application build using ReactJs</p>
                             </div>
-                            {/* <span className='skill-status'>Advance</span> */}
+                            
                         </div>
                         <div className="html">
                         <div className="section">
                                 <img className='service-icon' src={Tick} alt="" />
                                 <p className='service-skill'>Search filter with React-controlled inputs</p>
                             </div>
-                            {/* <span className='skill-status'>Intermediate</span> */}
                         </div>
                         <div className="html">
                         <div className="section">
                                 <img  className='service-icon' src={Tick} alt="" />
                                 <p className='service-skill'>Scalable application</p>
                             </div>
-                            {/* <span className='skill-status'>Intermediate</span> */}
                         </div>
                     
                     
                     <div className="html">
-                    {/* <div className="section">
-                                <img className='service-icon' src={Tick} alt="" />
-                                <p className='service-skill'></p>
-                            </div> */}
-                            {/* <span className='skill-status'>Intermediate</span> */}
                         </div>
                         <div className="html">
                         <div className="section">
                                 <img className='service-icon' src={Tick} alt="" />
                                 <p className='service-skill'>RESTful API</p>
                             </div>
-                            {/* <span className='skill-status'>Intermediate</span> */}
                         </div>
                         <div className="html">
                         <div className="section">
                                 <img className='service-icon' src={Tick} alt="" />
                                 <p className='service-skill left'>Responsive design</p>
                             </div>
-                            {/* <span className='skill-status'>Intermediate</span> */}
                         </div>
                         <div className="multiple-buttons">
                         <a href="">
@@ -352,7 +342,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
   )

@@ -39,9 +39,15 @@ const Footer = () => {
                 </Link>
             </div>
             <div className="footer-first">
+                <a href="https://github.com/hassanh7n">
                 <img className='footer-icon' src={Github} alt="" />
+                </a>
+                <a href="https://www.instagram.com/hassandev70000/">
                 <img className='footer-icon' src={Instagram} alt="" />
+                </a>
+                <a href="https://www.linkedin.com/in/hassan-dev-972187330/">
                 <img className='footer-icon' src={Linkedin} alt="" />
+                </a>
             </div>
            
         </div>

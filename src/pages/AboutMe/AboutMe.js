@@ -36,13 +36,13 @@ const AboutMe = () => {
                     <div className="second-two">
                         <h5 className='about-detail'> MERN Stack developer, I design and implement RESTful APIs for seamless integration between front-end and back-end systems. I work closely with UI/UX designers to create responsive and visually appealing user interfaces. Troubleshoot, debug, and optimize code to ensure high performance and reliability.</h5>
                     </div>
-                    <div className="second-three">
+                    {/* <div className="second-three">
                     <button className='about-btn' >
                         
                     <a className='aa' href={Cv} download="Hassan Dev(CV)">Download CV</a>
                         </button>
                         
-                    </div>
+                    </div> */}
                 </div>
         </div>
     </div>

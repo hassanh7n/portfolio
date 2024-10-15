@@ -55,8 +55,13 @@ const ContactMe = () => {
                 <h4 className='services-text'>Email</h4>
                 <span>hassannawaz70000@gmail.com</span>
                 <div  className="arrows">
+                    <a className='sign' href="mailto:hassannawaz70000@gmail.com">
+
+
+                    
                     <span>write me </span>
                     <img className='arrow' src={rightArrow} alt="" />
+                    </a>
                 </div>
                 
 
@@ -67,8 +72,10 @@ const ContactMe = () => {
                 <span>+92318-7255068</span>
                 
                 <div className="arrows">
+                    <a className='sign' href="https://wa.me/+923187255068">
                     <span>write me </span>
                     <img className='arrow' src={rightArrow} alt="" />
+                    </a>
                 </div>
                 
             </div>
@@ -77,8 +84,10 @@ const ContactMe = () => {
                 <h4 className='services-text'>Messenger</h4>
                 <span>Hassan Nawaz</span>
                 <div className="arrows">
+                    <a className='sign' href="https://m.me/HassanDev">
                     <span>write me </span>
                     <img className='arrow' src={rightArrow} alt="" />
+                    </a>
                 </div>
             </div>
         </div>
